@@ -1,0 +1,71 @@
+/* css for stop watch */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .display {
+    font-size: 60px;
+    margin-bottom: 20px;
+    background-color: #220303;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #f8eefa;
+    width: 80%;
+    margin: 0 auto;
+    width: 80%;
+}
+.container .buttons {
+    display: flex;
+    justify-content: center;
+}
+#startbtn{
+    background-color: #0590d1;
+    color: #000000;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#stopbtn{
+    background-color: #e23d3d;
+    color: #000000;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#resetbtn{
+    background-color: #889b93;
+    color: #000000;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#resetbtn:hover{
+    background-color: #91b1a4;
+}
+#startbtn:hover{
+    background-color: #00b3ff;
+}
+#stopbtn:hover{
+    background-color: #ff0000;
+}
